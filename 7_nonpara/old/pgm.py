@@ -46,5 +46,5 @@ ax.scatter(bill,tip, color='green')
 ax.plot(xsort[:,1],ypred[SortIndex], color = 'red', linewidth=5)
 plt.xlabel('Total bill')
 plt.ylabel('Tip')
-#plt.show();
-plt.plot()
+#plt.show(); #system
+plt.plot() #colab
